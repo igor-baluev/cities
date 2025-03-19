@@ -1,0 +1,18 @@
+{
+  "name": "patterns",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node --test",
+    "test1": "node ./src/tests",
+    "lint": "eslint ./src/**/*.js && prettier -c \"./src/**/*.js\"",
+    "fix": "eslint ./src/**/*.js --fix && prettier --write \"./src/**/*.js\""
+  },
+  "author": "Timur Shemsedinov",
+  "private": true,
+  "dependencies": {
+    "eslint": "^9.12.0",
+    "eslint-config-metarhia": "^9.0.7",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3"
+  }
+}
