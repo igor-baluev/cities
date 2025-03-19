@@ -2,8 +2,7 @@
   "name": "patterns",
   "version": "1.0.0",
   "scripts": {
-    "test": "node --test",
-    "test1": "node ./src/tests",
+    "test": "node ./src/tests",
     "lint": "eslint ./src/**/*.js && prettier -c \"./src/**/*.js\"",
     "fix": "eslint ./src/**/*.js --fix && prettier --write \"./src/**/*.js\""
   },
